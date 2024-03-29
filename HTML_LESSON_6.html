@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: linear-gradient(to right,yellow,black)
+            }
+            p {
+                font-size: xx-large;
+                color: #000;
+            }
+            span {
+                font-size: 33px;
+                font-weight: bolder;
+                color: red;
+                animation: color 20s  infinite;
+            }
+            @keyframes color {
+                0%    {color: red;}
+                100%  {color: blue;}
+            }
+            input {
+                background-color: green;
+                color: #fff;
+                font-size: 26px;
+                font-family: Georgia;
+                padding: 20px;
+                width: 70%;
+                border: 2.5px dotted #fff;
+                border-radius: 20px;
+            }
+            footer {
+                color: #fff;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bolder;
+                font-size: x-large;
+            }
+            li {
+                color: #fff;
+                text-transform: capitalize;
+            }
+            audio {
+                padding: 1px;
+                border-radius: 30px;
+                border: 2.5px dotted #fff;
+                width: 50%;
+                animation: chill 13s infinite;
+            }
+            
+            @keyframes chill {
+                0%     {border: 2.5px dotted red;}
+                40%    {border: 2.5px dotted  blue;}
+                80%    {border: 2.5px dotted green;}
+                100%   {border: 2.5px dotted  yellow;}
+            }
+            </style>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width">
+    </head>
+    <body><br>
+        <p>What do you think comes after the opening tag <b>< button ></button></b><span>?</span></p>
+         <div align="center"class="container"><br><br>
+        <input type="button"value="Another opening tag:<button>"onclick="alert('Ooops,Try Again😵😵😵');"> <br><br><br><br>
+        <a href="HTML_LESSON_7.html"><input type="button"value="The closing tag: </button>"onclick="alert('You Did it Ma Niagga🤒🤒🤒');"></a>
+        </div><br><br>
+    </body>
+    <footer><li>please click on the answer that you think is right.</li></footer>
+    <br><br>
+    <div align="center">
+    <audio controls>
+        <source src="D:\Alan_x_Walkers_-_Unity(128k).m4a"type="audio/mp3">
+    </audio>
+</div>
+</html>

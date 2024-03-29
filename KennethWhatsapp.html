@@ -1,0 +1,428 @@
+//Created by Muhumuza kenneth the knower black pencil programmer
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"content="device-width, initial-scale=1.0">
+  <style>
+    /* Created by Fernando Moceces */
+
+body{
+    background:#fff;
+    font-family: 'PT Sans', sans-serif;
+}
+.timer{
+    color:grey;
+    font-size:50%;
+    position:absolute;
+    right:4;
+}
+@keyframes anim{
+    0%{transform:scale(5);}
+    100%{transform:scale(1);}
+}
+@keyframes anima{
+    0%{margin-left:500px;}
+    100%{margin-left:0px;}
+}
+@keyframes animo{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+@keyframes animi{
+    0%{transform:scale(1);}
+    50%{transform:scale(.8);}
+    100%{transform:scale(1);}
+}
+@keyframes a1{
+    0%{margin-left:0;}
+    50%{margin-left:200px;}
+    100%{margin-left:0;}
+}
+
+@keyframes a2{
+    0%{margin-top:0;}
+    50%{margin-top:200px;}
+    100%{margin-top:0;}
+}
+
+@keyframes a3{
+    0%{margin-left:0px;}
+    50%{margin-left:200px;}
+    100%{margin-left:0px;}
+}
+
+@keyframes a4{
+    0%{margin-top:0px; margin-left:200px;}
+    50%{margin-top:200px; margin-left:0;}
+    100%{margin-top:0px; margin-left:200px;}
+}
+
+@keyframes a5{
+    0%{margin-top:0px; margin-left:0px;}
+    50%{margin-top:200px; margin-left:200px;}
+    100%{margin-top:0px; margin-left:0px;}
+}
+
+@keyframes a6{
+    0%{margin-top:0; right:0;}
+    50%{margin-top:200px;}
+    100%{margin-top:0; right:0;}
+}
+
+@keyframes a7{
+    0%{margin-left:0; bottom:0;}
+    50%{margin-left:200px;}
+    100%{margin-left:0; bottom:0;}
+}
+@keyframes a8{
+    0%{margin-top:0; margin-left:100px}
+    50%{margin-top:200px; margin-left:100px}
+    100%{margin-top:0; margin-left:100px}
+}
+@keyframes pop{
+    0%{transform:scale(0);}
+    100%{transform:scale(1)}
+}
+@keyframes blow{
+    0%{transform:scale(1);}
+    50%{transform:scale(.8);}
+    100%{transform:scale(1);}
+}
+
+  </style>
+  <script>
+    // Created by Kenneth
+
+a_t=function(){
+    let a=new Date();
+    let b=("0"+a.getHours()).slice(-2);
+    let c=("0"+a.getMinutes()).slice(-2);
+    return b+":"+c;
+}
+
+touches=function(x,y=true){
+    x.style.background=y?"#ccc":"#fff";
+}
+
+random_color=function(){
+        let a="0123456789abcdef";
+        let b="#";
+        while(b.length<7) b+=a[a.length*Math.random()|0];
+        return b;
+    }
+
+window.onload=function(){
+    dateout.innerText=a_t();
+
+
+avrilchat.onclick=function(){
+   setTimeout(function(){
+       m_main.hide();
+       m_avril.show();
+       avril_onload();
+   },500);
+}
+
+gagachat.onclick=function(){
+   setTimeout(function(){
+       m_main.hide();
+       m_gaga.show();
+       gaga_onload();
+   },500);
+}
+
+blinkchat.onclick=function(){
+   setTimeout(function(){
+       m_main.hide();
+       m_blink.show();
+       blink_onload();
+   },500);
+}
+
+swiftchat.onclick=function(){
+   setTimeout(function(){
+       m_main.hide();
+       m_taylor.show();
+       taylor_onload();
+   },500);
+}
+
+maman=function(){
+    window.history.forward();
+}
+}
+
+Object.prototype.show=function(){
+    this.style.display="block"
+}
+Object.prototype.hide=function(){
+    this.style.display="none"
+}
+  </script>
+    <script src="https://drive.google.com/uc?export=view&id=120CrufgAIX9GKstF7OnWbHORHZZgPzDh"></script>
+    <script src="https://drive.google.com/uc?export=view&id=1VxEmsxX9PoprX4y6E3QIQ8BQF4kERem4" type="text/javascript"></script>
+    <script src="https://drive.google.com/uc?export=view&id=12i3q4OHgi65mFUAZYIsSpenJVz1fmTDJ"></script>
+    <script src="https://drive.google.com/uc?export=view&id=1963LqG_vPnLICKiYi0cBl-tkIJhK2NHr"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<div id=m_taylor style="display:none;background:#222;width:100%;height:100%;position:absolute;top:0;left:0;">
+    <div style="background:#0a5d52;width:100%;height:60px;position:absolute;top:0;left:0;box-shadow:1px 1px 4px 0 grey">
+        <table style=width:100%;height:100%;color:white>
+            <tr>
+                <td rowspan=2 style=width:7%>
+                    <img onclick="try{m_taylor.hide();m_main.show();chatt.innerHTML='';clearInterval(s);clearInterval(r);}catch(x){}" src="https://i.ibb.co/Yy1FL9t/arrow.jpg" width=20px style=box-shadow:none>
+                </td>
+                <td rowspan=2 style=width:17%;border-radius:200px;overflow:hidden;position:relative>
+                    <img style=position:absolute;top:0;left:0;box-shadow:none height=100% src="https://i.ibb.co/p1vsJTW/15730675443661.jpg">
+                </td>
+                <td style=font-size:130%;font-weight:bold;vertical-align:bottom>Taylor Swift</td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/MpZmjcY/cam.jpg" style=box-shadow:none>
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/p1PCkFJ/call.jpg" style=box-shadow:none>
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/k6CPwFd/dots.jpg" style=box-shadow:none>
+                </td>
+            </tr>
+            <tr>
+                <td id=statust style=height:35%>typing...</td>
+            </tr>
+        </table>
+        <div id=chatt style=margin-left:5px;width:98%;height:120px;overflow:auto></div>
+    <center>
+    <table id=maint>
+        
+    </table>
+    </center>
+    </div>
+    </div>
+    
+<!-------------------->
+<div id=m_blink style="display:none;background:#222;width:100%;height:100%;position:absolute;top:0;left:0;">
+    <div id=gameover></div>
+    <div id=cheat></div>
+    <div style="background:#0a5d52;width:100%;height:60px;position:absolute;top:0;left:0;box-shadow:1px 1px 4px 0 grey">
+        <table style=width:100%;height:100%;color:white;border:none>
+            <tr>
+                <td rowspan=2 style=width:7%>
+                    <img onclick="try{m_blink.hide();m_main.show();}catch(x){}" src="https://i.ibb.co/Yy1FL9t/arrow.jpg" width=20px style=box-shadow:none>
+                </td>
+                <td rowspan=2 style=width:17%;border-radius:200px;overflow:hidden;position:relative>
+                    <img style=position:absolute;top:0;left:0;box-shadow:none height=100% src="https://i.ibb.co/dDLkNsZ/blink.jpg">
+                </td>
+                <td style=font-size:130%;font-weight:bold;vertical-align:bottom>blink-182</td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/MpZmjcY/cam.jpg" style=box-shadow:none>
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/p1PCkFJ/call.jpg" style=box-shadow:none>
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/k6CPwFd/dots.jpg" style=box-shadow:none>
+                </td>
+            </tr>
+            <tr>
+                <td id=statusb style=height:35%>typing...</td>
+            </tr>
+        </table>
+        <div id=chatb style=margin-left:5px;width:80%;height:120px;overflow:auto></div>
+        <center>
+        <div id=o style="width:96%;height:250px;overflow:hidden;position:relative;border-radius:5px;background:#ccc;display:none"></div><br>
+        <div id=p style="width:100%;overflow:auto;position:relative"></div></center>
+        <button id=q style="width:80px;height:30px;background:#ccc;position:fixed;bottom:5px;right:5px;border-radius:5px;font-size:150%;text-align:center;box-shadow:1px 1px 2px black;border:none;outline:none;display:none">Log</button>
+        <button id=Score style="height:30px;background:#ccc;position:fixed;bottom:5px;left:5px;border-radius:5px;font-size:150%;text-align:center;padding-left:10px;padding-right:10px;box-shadow:1px 1px 2px black;border:none;outline:none;display:none"> <label id=qqq></label></button>
+        <button id=log onclick="o.innerHTML=null;score-=50;Score.style.background='red';setTimeout(function(){Score.style.background='#ccc'},1001)" style="height:30px;background:#ccc;position:fixed;bottom:5px;right:95px;border-radius:5px;font-size:150%;text-align:center;box-shadow:1px 1px 2px black;border:none;outline:none;display:none">Clear Box</button>
+        <button id=skip onclick="p.innerHTML='';chat_blink(Skip[Math.floor(Math.random()*10)]);clearInterval(s);clearInterval(t);o.innerHTML=null;score-=50;Score.style.background='red';setTimeout(function(){Score.style.background='#ccc'},1001);setTimeout(function(){Go()},3500)" style="height:30px;background:#ccc;position:fixed;bottom:5px;right:200px;border-radius:5px;font-size:150%;text-align:center;box-shadow:1px 1px 2px black;border:none;outline:none;display:none">Skip</button>
+</div>
+</div>
+<!-------------------->
+
+<div id=m_avril style="background:#ccc;width:100%;height:100%;display:none">
+    <div style=background:#0a5d52;width:100%;height:60px;position:absolute;top:0;left:0>
+        <table style=width:100%;height:100%;color:white>
+            <tr>
+                <td rowspan=2 style=width:7%>
+                    <img onclick="m_avril.hide();m_main.show();avrilc.innerHTML='';clearInterval(s);" src="https://i.ibb.co/Yy1FL9t/arrow.jpg" width=20px>
+                </td>
+                <td rowspan=2 style=width:17%;border-radius:200px;overflow:hidden;position:relative>
+                    <img style=position:absolute;top:0;left:0 height=100% src="https://i.ibb.co/Kzs6TJZ/thumb.jpg">
+                </td>
+                <td style=font-size:130%;font-weight:bold;vertical-align:bottom>Avril Lavigne</td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/MpZmjcY/cam.jpg">
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/p1PCkFJ/call.jpg">
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/k6CPwFd/dots.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td id=statusa style=height:35%>typing...</td>
+            </tr>
+        </table>
+    </div>
+    <div id=avrilc style="background:#222;width:100%;height:calc(100% - 110px);top:60;left:0;position:absolute;overflow:scroll;padding-top:5px"></div>
+                <div style=background:#222;width:100%;height:50px;bottom:0;left:0;position:fixed>
+                    <div style=background:white;width:85%;height:100%;border-radius:40px;float:left>
+                        <table style=width:85%;bottom:0;position:absolute;height:100%>
+                            <tr>
+                                <td id=watch style=width:12%;position:relative>
+                                    <img width=90% src="https://i.ibb.co/QQYnmfq/smiley.jpg" style=right:0;top:7;position:absolute>
+                                </td>
+                                <td>
+                                    <input id=inputa style=width:97%;height:100%;word-overflow:break-word;font-size:120%;border:none;outline:none; placeholder="Type a message">
+                                </td>
+                                <td style=width:15%>
+                                    <img width=70% src="https://i.ibb.co/PckF08h/attach.jpg">
+                                </td>
+                                <td id=cam style=width:15%>
+                                    <img width=70% src="https://i.ibb.co/r2d1Mqf/camb.jpg">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id=button style=background:#00897b;width:14%;height:100%;border-radius:50%;float:right>
+                        <img style=margin-top:20%;margin-left:25% width=60% src="https://i.ibb.co/JyLyL7Z/arrowb.jpg">
+                    </div>
+                </div>
+            </div>
+<!-------------------->
+<div id=m_main style="adisplay:none">
+        <div style="background:#0a5d52;width:100%;height:100px;left:0;top:0;position:absolute;color:#fff;box-shadow:0 2px 4px grey">
+            <table style=width:100%;margin-top:15px;color:#fff>
+                <tr>
+                    <td style=font-size:175%><span clas="kenneth">kennethWhatsAppeLite</span></td>
+                    <td style=width:10%>
+                        <img width=60% src="https://i.ibb.co/0G9J9FC/search.jpg">
+                    </td>
+                    <td style=width:10%>
+                        <img width=60% src="https://i.ibb.co/k6CPwFd/dots.jpg">
+                    </td>
+                </tr>
+                <table style=bottom:0;width:100%;position:absolute;text-align:center;color:#fff>
+                    <tr>
+                        <td style=width:10%>
+                            <img width=70% src="https://i.ibb.co/DYnDHVy/camc.jpg">
+                        </td>
+                        <td>CHATS
+                        <div style="position:absolute;width:30%;background:white;height:3px;margin-top:5px"></div></div>
+                            
+                        </td>
+                        <td>FEEDS</td>
+                        <td>CALLS</td>
+                    </tr>
+                </table>
+            </table>
+        </div>
+        <div style=width:100%;height:100%;left:0;position:absolute;margin-top:92px>
+        <div>
+            <table id=avrilchat ontouchstart="touches(this)" ontouchend="touches(this,false)" style=width:100%;height:75px>
+                <tr>
+                    <td rowspan=2 style=width:21%>
+                        <center><div style="width:50px;height:50px;border-radius:100%;overflow:hidden">
+                            <img src="https://i.ibb.co/Kzs6TJZ/thumb.jpg" width=78px>
+                        </div>
+                    </td>
+                    <td style=vertical-align:bottom;font-weight:bold>Muhumuza  kenneth</td>
+                    <td id=dateout rowspan=2 style=width:10%;color:grey;font-size:75%;font-weight:bold></td>
+                </tr>
+                <tr style=vertical-align:top>
+                    <td style="border-bottom:1px solid #ccc;color:#21c75e;font-weight:bold">typing...</td>
+                </tr>
+            </table>
+            <table id=gagachat ontouchstart="touches(this)" ontouchend="touches(this,false)" style=width:100%;height:75px>
+                <tr>
+                    <td rowspan=2 style=width:21%>
+                        <center><div style="width:50px;height:50px;border-radius:100%;overflow:hidden">
+                            <img src="https://i.ibb.co/6bxKDf3/gaga.jpg" width=58px>
+                        </div>
+                    </td>
+                    <td style=vertical-align:bottom;font-weight:bold>kobusinge Rose</td>
+                    <td rowspan=2 style=width:10%;color:grey;font-size:75%;font-weight:bold>20:21</td>
+                </tr>
+                <tr style=vertical-align:top>
+                    <td style="border-bottom:1px solid #ccc;color:grey;font-size:90%">My beloved son kenneth has built this whatsapp!</td>
+                </tr>
+            </table>
+            <table id=blinkchat ontouchstart="touches(this)" ontouchend="touches(this,false)" style=width:100%;height:75px>
+                <tr>
+                    <td rowspan=2 style=width:21%>
+                        <center><div style="width:50px;height:50px;border-radius:100%;overflow:hidden">
+                            <img src="https://i.ibb.co/dDLkNsZ/blink.jpg" width=57px>
+                        </div>
+                    </td>
+                    <td style=vertical-align:bottom;font-weight:bold>Amanyire Nicholus bro</td>
+                    <td rowspan=2 style=width:10%;color:grey;font-size:75%;font-weight:bold>18:20</td>
+                </tr>
+                <tr style=vertical-align:top>
+                    <td style="border-bottom:1px solid #ccc;color:grey;font-size:90%">Yooo, kenneth!</td>
+                </tr>
+            </table>
+            
+            <table id=swiftchat ontouchstart="touches(this)" ontouchend="touches(this,false)" style=width:100%;height:75px>
+                <tr>
+                    <td rowspan=2 style=width:21%>
+                        <center><div style="width:50px;height:50px;border-radius:100%;overflow:hidden">
+                            <img src="https://i.ibb.co/p1vsJTW/15730675443661.jpg" width=55px>
+                        </div>
+                    </td>
+                    <td style=vertical-align:bottom;font-weight:bold>kabanyomozi Agness Sissy</td>
+                    <td rowspan=2 style=width:10%;color:grey;font-size:75%;font-weight:bold>11:11</td>
+                </tr>
+                <tr style=vertical-align:top>
+                    <td style="color:grey;font-size:90%">kenneth, You told me to send me 1m!</td>
+                </tr>
+            </table>
+            <div onclick=maman() style=width:80px;height:80px;border-radius:50px;position:fixed;right:0;bottom:0;overflow:hidden>
+                <img width=80px src="https://i.ibb.co/zNhP3RN/footer.jpg">
+            </div>
+            </div>
+            
+        </div>
+   </div>
+<!-------------------->
+<div id=m_gaga style="display:none;width:100%;height:100%;position:absolute;background:#ccc;top:0;left:0">
+    <div style="background:#0a5d52;width:100%;height:60px;position:absolute;top:0;left:0;box-shadow:1px 1px 4px 0 grey">
+        <table style=width:100%;height:100%;color:white>
+            <tr>
+                <td rowspan=2 style=width:7%>
+                    <img onclick="try{m_gaga.hide();m_main.show();gagac.innerHTML='';gagad.innerHTML='';chatg.innerHTML='';clearInterval(b)}catch(x){}" src="https://i.ibb.co/Yy1FL9t/arrow.jpg" width=20px>
+                </td>
+                <td rowspan=2 style=width:17%;border-radius:200px;overflow:hidden;position:relative>
+                    <img style=position:absolute;top:0;left:0 height=100% src="https://i.ibb.co/6bxKDf3/gaga.jpg">
+                </td>
+                <td style=font-size:130%;font-weight:bold;vertical-align:bottom>Lady Gaga</td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/MpZmjcY/cam.jpg">
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/p1PCkFJ/call.jpg">
+                </td>
+                <td rowspan=2 style=width:10%>
+                    <img width=20px src="https://i.ibb.co/k6CPwFd/dots.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td id=statusg style=height:35%>typing...</td>
+            </tr>
+        </table>
+    <div id=chatg style=margin-left:5px;width:90%;height:120px;overflow:auto></div>
+    <table style=width:100%>
+        <tr>
+            <td><div id=gagac></div></td>
+        </tr>
+        <tr>
+            <td><div id=gagad></div></td>
+        </tr>
+    </table>
+    </div>
+    </html>
+<!-------------------->
